@@ -8,4 +8,10 @@ public class BasketballCoach implements Coach {
 		return "Do a shooting drill for 5 minutes";
 	}
 
+    @Override
+    public String getDailyFortune()
+    {
+        return null;
+    }
+
 }
